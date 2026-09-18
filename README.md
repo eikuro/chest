@@ -1,4 +1,11 @@
-# Chest
+<!-- markdownlint-disable MD033 MD041 -->
+<p align="center">
+  <img alt="Chest" src="assets/logo.png" width="160">
+</p>
+
+<h3 align="center">Chest</h3>
+<p align="center">A shared home for Eikuro identity artwork and organisation media.</p>
+<!-- markdownlint-enable MD033 MD041 -->
 
 Public identity assets and generated organisation media for Eikuro.
 
