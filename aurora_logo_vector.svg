@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1024" height="1024" viewBox="0 0 1024 1024"
+     role="img" aria-label="Aurora lighthouse emblem">
+  <defs>
+    <linearGradient id="leftWing" gradientUnits="userSpaceOnUse" x1="512" y1="126" x2="103" y2="829">
+      <stop offset="0%" stop-color="#123E7B"/>
+      <stop offset="34%" stop-color="#096EA8"/>
+      <stop offset="63%" stop-color="#15A8BF"/>
+      <stop offset="82%" stop-color="#4BC9C1"/>
+      <stop offset="100%" stop-color="#5341A1"/>
+    </linearGradient>
+    <linearGradient id="rightWing" gradientUnits="userSpaceOnUse" x1="512" y1="126" x2="921" y2="829">
+      <stop offset="0%" stop-color="#123E7B"/>
+      <stop offset="34%" stop-color="#096EA8"/>
+      <stop offset="63%" stop-color="#15A8BF"/>
+      <stop offset="82%" stop-color="#4BC9C1"/>
+      <stop offset="100%" stop-color="#5341A1"/>
+    </linearGradient>
+
+    <linearGradient id="leftInner" gradientUnits="userSpaceOnUse" x1="494" y1="424" x2="129" y2="824">
+      <stop offset="0%" stop-color="#0C78B0" stop-opacity="0.50"/>
+      <stop offset="48%" stop-color="#20B6C2" stop-opacity="0.72"/>
+      <stop offset="78%" stop-color="#67D4C5" stop-opacity="0.82"/>
+      <stop offset="100%" stop-color="#6571BE" stop-opacity="0.28"/>
+    </linearGradient>
+    <linearGradient id="rightInner" gradientUnits="userSpaceOnUse" x1="530" y1="424" x2="895" y2="824">
+      <stop offset="0%" stop-color="#0C78B0" stop-opacity="0.50"/>
+      <stop offset="48%" stop-color="#20B6C2" stop-opacity="0.72"/>
+      <stop offset="78%" stop-color="#67D4C5" stop-opacity="0.82"/>
+      <stop offset="100%" stop-color="#6571BE" stop-opacity="0.28"/>
+    </linearGradient>
+
+    <linearGradient id="rightHighlight" gradientUnits="userSpaceOnUse" x1="570" y1="330" x2="818" y2="760">
+      <stop offset="0%" stop-color="#31D5C8" stop-opacity="0.00"/>
+      <stop offset="18%" stop-color="#31D5C8" stop-opacity="0.95"/>
+      <stop offset="72%" stop-color="#5BD8C7" stop-opacity="0.76"/>
+      <stop offset="100%" stop-color="#5A67BA" stop-opacity="0.00"/>
+    </linearGradient>
+
+    <linearGradient id="spire" gradientUnits="userSpaceOnUse" x1="512" y1="462" x2="512" y2="793">
+      <stop offset="0%" stop-color="#164E91"/>
+      <stop offset="54%" stop-color="#1697B6"/>
+      <stop offset="82%" stop-color="#53BDAA"/>
+      <stop offset="100%" stop-color="#F6D34B"/>
+    </linearGradient>
+
+    <linearGradient id="baseGold" gradientUnits="userSpaceOnUse" x1="176" y1="0" x2="848" y2="0">
+      <stop offset="0%" stop-color="#C88A2C"/>
+      <stop offset="22%" stop-color="#E5B13F"/>
+      <stop offset="50%" stop-color="#F8D963"/>
+      <stop offset="78%" stop-color="#E5B13F"/>
+      <stop offset="100%" stop-color="#C88A2C"/>
+    </linearGradient>
+
+    <radialGradient id="starGold" cx="42%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#FFE76A"/>
+      <stop offset="65%" stop-color="#F6D13C"/>
+      <stop offset="100%" stop-color="#EFB72A"/>
+    </radialGradient>
+  </defs>
+
+  <!-- left aurora wing -->
+  <path d="
+    M 512,126
+    C 466,247 405,402 337,548
+    C 269,694 182,787 98,829
+    C 217,799 330,719 414,616
+    C 463,556 492,484 512,414
+    L 512,126 Z"
+    fill="url(#leftWing)"/>
+
+  <!-- right aurora wing -->
+  <path d="
+    M 512,126
+    C 558,247 619,402 687,548
+    C 755,694 842,787 926,829
+    C 807,799 694,719 610,616
+    C 561,556 532,484 512,414
+    L 512,126 Z"
+    fill="url(#rightWing)"/>
+
+  <!-- softer inner aurora layers -->
+  <path d="
+    M 512,414
+    C 488,497 451,572 397,642
+    C 326,734 227,799 119,825
+    C 250,779 350,706 420,610
+    C 466,547 494,479 512,414 Z"
+    fill="url(#leftInner)"/>
+
+  <path d="
+    M 512,414
+    C 536,497 573,572 627,642
+    C 698,734 797,799 905,825
+    C 774,779 674,706 604,610
+    C 558,547 530,479 512,414 Z"
+    fill="url(#rightInner)"/>
+
+  <!-- narrow cyan accent on the right ribbon -->
+  <path d="
+    M 566,326
+    C 606,430 658,548 724,649
+    C 764,710 805,759 849,795
+    C 808,746 772,694 738,635
+    C 671,520 617,416 566,326 Z"
+    fill="url(#rightHighlight)"/>
+
+  <!-- central lighthouse / signal spike -->
+  <path d="
+    M 512,462
+    C 509,557 509,663 505,747
+    C 504,771 500,782 492,790
+    C 503,788 509,782 512,763
+    C 515,782 521,788 532,790
+    C 524,782 520,771 519,747
+    C 515,663 515,557 512,462 Z"
+    fill="url(#spire)"/>
+
+  <!-- star -->
+  <polygon points="512.00,248.00 520.80,284.75 553.01,264.99 533.25,297.20 570.00,306.00 533.25,314.80 553.01,347.01 520.80,327.25 512.00,364.00 503.20,327.25 470.99,347.01 490.75,314.80 454.00,306.00 490.75,297.20 470.99,264.99 503.20,284.75" fill="url(#starGold)"/>
+
+  <!-- golden horizon/base -->
+  <path d="
+    M 176,831
+    C 296,794 402,772 489,771
+    C 501,771 508,763 512,742
+    C 516,763 523,771 535,771
+    C 622,772 728,794 848,831
+    C 721,804 619,789 535,788
+    C 523,788 516,783 512,769
+    C 508,783 501,788 489,788
+    C 405,789 303,804 176,831 Z"
+    fill="url(#baseGold)"/>
+</svg>
