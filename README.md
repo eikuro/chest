@@ -4,18 +4,18 @@
 </p>
 
 <h3 align="center">Chest</h3>
-<p align="center">A shared home for Eikuro identity artwork and organisation media.</p>
+<p align="center">A shared home for Organisation identity artwork and organisation media.</p>
 <!-- markdownlint-enable MD033 MD041 -->
 
-Public identity assets and generated organisation media for Eikuro.
+Public identity assets and generated organisation media for Organisation.
 
 ## Contents
 
 | Path | Purpose |
 | --- | --- |
-| `logo/` | Eikuro identity artwork |
-| `aurora_logo_vector.svg` | Aurora identity artwork |
-| `generated/github-stats/` | Public SVG cards produced by `eikuro/github-stats` |
+| `logo/` | Organisation identity artwork |
+| `workspace_logo_vector.svg` | Workspace identity artwork |
+| `generated/github-stats/` | Public SVG cards produced by `organisation/github-stats` |
 
 The `generated/github-stats/` files are delivery artefacts. The private
 `github-stats` repository owns their computation and publishes fresh versions
