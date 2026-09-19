@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 MD041 -->
 <p align="center">
-  <img alt="Chest" src="assets/logo.png" width="160">
+  <img alt="Chest" src="logo.png" width="160">
 </p>
 
 <h3 align="center">Chest</h3>
