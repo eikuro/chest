@@ -15,8 +15,8 @@ Public identity assets and generated organisation media for Organisation.
 | --- | --- |
 | `logo/` | Organisation identity artwork |
 | `workspace_logo_vector.svg` | Workspace identity artwork |
-| `generated/github-stats/` | Public SVG cards produced by `organisation/github-stats` |
+| `generated/.github-stats/` | SVG cards produced by `organisation/.github-stats` |
 
-The `generated/github-stats/` files are delivery artefacts. The private
-`github-stats` repository owns their computation and publishes fresh versions
+The `generated/.github-stats/` files are delivery artefacts. The private
+`.github-stats` repository owns their computation and publishes fresh versions
 here after successful scheduled runs.
