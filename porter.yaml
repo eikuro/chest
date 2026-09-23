@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../porter/schemas/manifest.json
+---
+private: true
+
+name: chest
+type: docs
+description: Shared visual and brand assets.
+
+config: ../pymap
+
+github: eikuro
+
+.gitignore: []
