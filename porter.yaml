@@ -1,13 +1,20 @@
 # yaml-language-server: $schema=../porter/schemas/manifest.json
 ---
+#
+# component metadata
+#
+type: docs
 private: true
 
+github: "eikuro"
 name: chest
-type: docs
 description: Shared visual and brand assets.
 
-config: ../pymap
+#
+# component repo config
+#
 
-github: eikuro
+config:
+  base: ../map
 
-.gitignore: []
+  .gitignore: []
